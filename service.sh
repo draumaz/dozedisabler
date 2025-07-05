@@ -1,6 +1,6 @@
 #!/system/bin/sh
-MODDIR=${0%/*}
-MNAME=$(basename $MODDIR)
 
-sleep 20
+MODDIR="${0%/*}"
+MNAME="$(basename ${MODDIR})"
+
 /system/bin/dumpsys deviceidle disable
