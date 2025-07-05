@@ -1,0 +1,6 @@
+id=dozedisabler
+name=Doze Disabler
+version=1
+versionCode=1
+author=draumaz
+description=Disable Doze on boot, ensuring timely notifications. Expect slightly increased battery usage.
